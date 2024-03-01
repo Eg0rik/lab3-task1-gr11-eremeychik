@@ -17,6 +17,11 @@ int compareByOnes(const void *a, const void *b) {
     return countOnes(*(int*)a) - countOnes(*(int*)b);
 }
 
+// Функция для генерации псевдослучайных чисел в заданном диапазоне
+int getRandomNumber(int min, int max) {
+    return rand() % (max - min + 1) + min;
+}
+
 void main (void)
 {
 	printf ("Hello World\n");
