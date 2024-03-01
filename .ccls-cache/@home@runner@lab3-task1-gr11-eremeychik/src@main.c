@@ -12,6 +12,11 @@ int countOnes(int num) {
     return count;
 }
 
+// Функция для сравнения двух чисел по количеству единиц в их двоичной записи
+int compareByOnes(const void *a, const void *b) {
+    return countOnes(*(int*)a) - countOnes(*(int*)b);
+}
+
 void main (void)
 {
 	printf ("Hello World\n");
