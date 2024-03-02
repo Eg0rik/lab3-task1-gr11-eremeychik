@@ -1,6 +1,5 @@
-/* hello.c */
-#include <stdio.h>
-#include "dop.c"
+/* main.c */
+#include "server.c"
 
 int main(int argc, char *argv[]) {
     // Проверка наличия аргументов командной строки
